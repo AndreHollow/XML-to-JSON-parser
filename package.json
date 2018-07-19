@@ -1,0 +1,15 @@
+{
+  "name": "XML",
+  "version": "1.0.0",
+  "description": "some description here",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry",
+  "dependencies": {
+    "js2xmlparser": "^3.0.0",
+    "xml2js": "^0.4.19",
+    "xsd-schema-validator": "^0.6.0"
+  }
+}

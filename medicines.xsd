@@ -1,0 +1,64 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="medicines">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="medicine" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="title"/>
+              <xs:element type="xs:string" name="manufacturer"/>
+              <xs:element type="xs:string" name="type"/>
+              <xs:element name="analogs">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="analogue" maxOccurs="unbounded" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="versions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="version" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="type"/>
+                          <xs:element name="certificate">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="serial"/>
+                                <xs:element type="xs:string" name="date"/>
+                                <xs:element type="xs:string" name="expiration"/>
+                                <xs:element type="xs:string" name="registrator"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="package">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="type"/>
+                                <xs:element type="xs:string" name="amount"/>
+                                <xs:element type="xs:string" name="price"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="dosage">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="amount"/>
+                                <xs:element type="xs:string" name="duration"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

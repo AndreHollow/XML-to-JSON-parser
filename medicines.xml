@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<medicines>
+  <medicine>
+    <title>Фармазолин</title>
+    <manufacturer>ПАТ «Фармак»</manufacturer>
+    <type>Противоотечные</type>
+    <analogs>
+      <analogue>Длянос капли</analogue>
+      <analogue>Длянос спрей</analogue>
+    </analogs>
+    <versions>
+      <version>
+        <type>Капли</type>
+        <certificate>
+          <serial>UA/1880/01/01</serial>
+          <date>29.07.2014</date>
+          <expiration>27.03.2020</expiration>
+          <registrator>ПАТ «Фармак»</registrator>
+        </certificate>
+        <package>
+          <type>Флакон</type>
+          <amount>10 мл</amount>
+          <price>40 грн</price>
+        </package>
+        <dosage>
+          <amount>1 впрыск в день</amount>
+          <duration>1 неделя</duration>
+        </dosage>
+      </version>
+      <version>
+        <type>Спрей</type>
+        <certificate>
+          <serial>UA/1881/02/01</serial>
+          <date>04.10.2017</date>
+          <expiration>04.10.2020</expiration>
+          <registrator>ПАТ «Фармак»</registrator>
+        </certificate>
+        <package>
+          <type>Флакон</type>
+          <amount>15 мл</amount>
+          <price>45 грн</price>
+        </package>
+        <dosage>
+          <amount>1 впрыск в день</amount>
+          <duration>1 неделя</duration>
+        </dosage>
+      </version>
+    </versions>
+  </medicine>
+  <medicine>
+    <title>Длянос спрей</title>
+    <manufacturer>Новартіс Консьюмер Хелс СА</manufacturer>
+    <type>Противоотечные</type>
+    <analogs></analogs>
+    <versions>
+      <version>
+        <type>Спрей</type>
+        <certificate>
+          <serial>UA/1535/02/01</serial>
+          <date>22.08.2014</date>
+          <expiration>22.08.2020</expiration>
+          <registrator>Новартіс Консьюмер Хелс СА</registrator>
+        </certificate>
+        <package>
+          <type>Флакон</type>
+          <amount>10 мл</amount>
+          <price>30 грн</price>
+        </package>
+        <dosage>
+          <amount>2 впрыска в день</amount>
+          <duration>2 недели</duration>
+        </dosage>
+      </version>
+    </versions>
+  </medicine>
+</medicines>

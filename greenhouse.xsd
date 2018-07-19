@@ -1,0 +1,38 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="greenhouse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="flower" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+           <xs:attribute price = "price"/>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="soil"/>
+              <xs:element type="xs:string" name="origin"/>
+              <xs:element name="visualParams">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="stalkColor"/>
+                    <xs:element type="xs:string" name="leaf_color"/>
+                    <xs:element type="xs:string" name="average_size"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="grovingTips">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="temperature"/>
+                    <xs:element type="xs:string" name="lighting"/>
+                    <xs:element type="xs:string" name="watering"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="multipluing"/>
+            </xs:sequence>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

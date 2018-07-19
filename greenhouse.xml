@@ -1,0 +1,35 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<greenhouse>
+  <flower>
+    <name>Алое</name>
+    <soil>грунтовая</soil>
+    <origin>Новый свет</origin>
+    <visualParams>
+      <stalkColor>зелёно-коричневый</stalkColor>
+      <leaf_color>зелёный</leaf_color>
+      <average_size>65см</average_size>
+    </visualParams>
+    <grovingTips>
+      <temperature>10-25</temperature>
+      <lighting>светолюбиво</lighting>
+      <watering>200мл/в неделю</watering>
+    </grovingTips>
+    <multipluing>листьями</multipluing>
+  </flower>
+  <flower>
+    <name>Фаленопсис</name>
+    <soil>дерново-подзолистая</soil>
+    <origin>Индия</origin>
+    <visualParams>
+      <stalkColor>зелёный</stalkColor>
+      <leaf_color>белый</leaf_color>
+      <average_size>30см</average_size>
+    </visualParams>
+    <grovingTips>
+      <temperature>10-25</temperature>
+      <lighting>светолюбиво</lighting>
+      <watering>200мл/в неделю</watering>
+    </grovingTips>
+    <multipluing>черенками</multipluing>
+  </flower>
+</greenhouse>
